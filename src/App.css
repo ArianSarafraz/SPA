@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+#root {
+  padding: 1rem;
+}
+nav {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a.active {
+  font-weight: 700;
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+
+#dashboard {
+  background-color: #f5f5f5;
+  display: flex;
+}
+#sidebar {
+  background-color: #dedede;
+}
+#sidebar a {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+#sidebar a.active {
+  background-color: rgb(88, 88, 235);
+  color: white;
+}
